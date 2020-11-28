@@ -109,8 +109,8 @@ def get_boundingbox(metadata, z_offset):
     img_width = int(meta['sensor_variable_metadata']['width left image [pixel]'])
 
     B = gantry_z
-    A_x = np.arctan((0.5*float(fov_x))/0.8) #2)
-    A_y = np.arctan((0.5*float(fov_y))/0.8) #2)
+    A_x = np.arctan((0.5*float(fov_x))/2)
+    A_y = np.arctan((0.5*float(fov_y))/2)
     L_x = 2*B*np.tan(A_x)
     L_y = 2*B*np.tan(A_y)
 
