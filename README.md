@@ -9,8 +9,8 @@
     * **Raw BIN file to process:** 'bin' 
 * **Required Arguments:**
     * **Metadata file associated with bin file:** '-m', '--metadata'                
-* **Optional Arguments:**
     * **Z-axis offset:** '-z', '--zoffset'
+* **Optional Arguments:**
        
 ## Adapting the Script
                                         
