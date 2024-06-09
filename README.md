@@ -2,11 +2,10 @@
 
 This script converts BIN files to GeoTIFF images.
 
-Note that image height and width are collected from the provided metadata, including:
+Note that image height and width are hardcoded:
 
 ```
-    img_height = int(meta['sensor_variable_metadata']['height left image [pixel]'])
-    img_width = int(meta['sensor_variable_metadata']['width left image [pixel]'])
+    img_height, img_width = 640, 480
 ```
 
 Also, a experimentally derived offset is applied:
